@@ -1,0 +1,33 @@
+# Folder cache dan env
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+yolov8-env/
+
+# Dataset lokal dan folder training
+dataset/
+dataset_yolo/
+runs/
+smoking.v4i.yolov8/
+cigarette-vape-dataset/
+cigarette-vape-dataset.zip
+
+# Model hasil training
+*.pt
+
+# File gambar uji coba
+test*.jpg
+test*.jpeg
+
+# Notebook checkpoint (backup otomatis Jupyter)
+*.ipynb_checkpoints
+
+# Kalau pakai virtual environment dengan nama lain
+venv/
+.env
+
+
+# Folder dataset tambahan yang belum tercover
+cigarette-vape-detection.v*/
+smoking.v*/
